@@ -41,7 +41,7 @@ function Table1() {
     const column = [
         {
             name: "State",
-            selector: row => row.id,
+            selector: row => row.address.city,
             sortable: true
         }, {
             name: "APMC's",
@@ -49,19 +49,19 @@ function Table1() {
             sortable: true
         }, {
             name: "Commodity",
-            selector: row => row.email,
+            selector: row => row.company.name,
             sortable: true
         }, {
             name: "Min Price",
-            selector: row => row.address.city,
+            selector: row => row.address.geo.lat,
             sortable: true
         }, {
             name: "Max Price",
-            selector: row => row.address.city,
+            selector: row => row.address.geo.lng,
             sortable: true
         }, {
             name: "Date",
-            selector: row => row.address.city,
+            selector: row => row.address.zipcode,
             sortable: true
         }
     ]
