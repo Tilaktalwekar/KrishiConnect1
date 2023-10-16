@@ -8,7 +8,7 @@ const NavigationBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
        
-        <RouterLink to="/" className="navbar-brand navLink" style={{color:"#1b5749"}} smooth={true} duration={500}>
+        <RouterLink to="/" className="navbar-brand navLink" style={{color:"#000"}} smooth={true} duration={500}>
         <span style={{color:"Green"}}>Krishi</span>Connect.
           </RouterLink>
         <button
@@ -58,7 +58,7 @@ const NavigationBar = () => {
 <div class="modal-dialog " role="document">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title darkGreenText" id="exampleModalLongTitle">Farmer Registration</h5>
+      <h5 class="modal-title darkGreenText" id="exampleModalLongTitle">Farmer Login</h5>
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span className="mediumGreenText" aria-hidden="true">&times;</span>
       </button>
